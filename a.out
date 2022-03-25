@@ -1,0 +1,5 @@
+run : |
+       touch hello.sh
+       "hello how are you" > hello.sh
+       chmod 777 hello.sh
+       ./ hello.sh
